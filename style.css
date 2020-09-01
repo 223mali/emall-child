@@ -1,0 +1,39 @@
+/*
+ Theme Name:   EmallShop Child Theme
+ Theme URI:    http://demo.presslayouts.com/emallshop/
+ Description:  EmallShop Responsive Multipurpose WooCommerce Child Theme  
+ Author:       PressLayouts Team
+ Author URI:   http://presslayouts.com/
+ Template:     emallshop
+ Version:      1.0.2
+ Text Domain:  emallshop-child
+*/
+
+/* Theme customization starts here
+------------------------------------------------------- */
+
+
+/* Portrait */
+@media screen and (max-device-width: 480px){
+#recent-prod, #front-slider, #latest-prod{
+    max-width: 400px!important;
+}
+	
+	
+}
+
+
+
+.mfp-wrap .mfp-content .product-next-previous{
+	display:none;
+}
+
+
+span.product-rating-count{
+	display:none;
+}
+
+/* Safari Row Fix */
+.row:before, .row:after {
+    display: inline-block;
+}
