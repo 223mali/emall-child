@@ -33,6 +33,15 @@ span.product-rating-count{
 	display:none;
 }
 
+.yith_ywraq_add_item_browse-list a{
+	background: transparent;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #0ba2e8;
+    border: solid 1px #0ba2e8;
+}
+}
+
 /* Safari Row Fix */
 .row:before, .row:after {
     display: inline-block;
